@@ -1,0 +1,27 @@
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          formElementsDefinition:
+            Form:
+              formEditor:
+                editors:
+                  900:
+                    selectOptions:
+                      1709276020:
+                        value: VariableProvider
+                        label: formEditor.elements.Form.finisher.VariableProvider.editor.header.label
+                propertyCollections:
+                  finishers:
+                    1709276020:
+                      identifier: VariableProvider
+                      editors:
+                        100:
+                          identifier: header
+                          templateName: Inspector-CollectionElementHeaderEditor
+                          label: formEditor.elements.Form.finisher.VariableProvider.editor.header.label
+                        9999:
+                          identifier: removeButton
+                          templateName: Inspector-RemoveElementEditor
+

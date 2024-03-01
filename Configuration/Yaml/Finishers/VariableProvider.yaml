@@ -1,0 +1,13 @@
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          finishersDefinition:
+            VariableProvider:
+              formEditor:
+                iconIdentifier: form-finisher
+                label: formEditor.elements.Form.finisher.VariableProvider.editor.header.label
+              FormEngine:
+                label: tt_content.finishersDefinition.VariableProvider.label
+

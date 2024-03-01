@@ -1,0 +1,18 @@
+TYPO3:
+  CMS:
+    Form:
+      persistenceManager:
+        allowedExtensionPaths:
+          1709276020: EXT:finisher_variable_provider/Resources/Private/Forms/
+        allowSaveToExtensionPaths: true
+        allowDeleteFromExtensionPaths: false
+      prototypes:
+        standard:
+          finishersDefinition:
+            EmailToReceiver:
+              options:
+                templateRootPaths:
+                  1709276020: 'EXT:finisher_variable_provider/Resources/Private/Templates/Finishers/Email/'
+            VariableProvider:
+              implementationClassName: 'Passionweb\FinisherVariableProvider\Domain\Finishers\VariableProviderFinisher'
+

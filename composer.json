@@ -1,0 +1,31 @@
+{
+    "name": "passionweb/finisher-variable-provider",
+    "type": "typo3-cms-extension",
+    "description": "Shows the usage and implementation of form finisher variable providers.\n",
+    "version": "1.0.0",
+    "homepage": "https://www.passionweb.de",
+    "authors": [
+        {
+            "name": "Manuel Schnabel",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-core": "^12.4",
+        "typo3/cms-form": "^12.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Passionweb\\FinisherVariableProvider\\": "Classes"
+        }
+    },
+    "replace": {
+        "typo3-ter/finisger-variable-provider": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "finisher_variable_provider"
+        }
+    }
+}

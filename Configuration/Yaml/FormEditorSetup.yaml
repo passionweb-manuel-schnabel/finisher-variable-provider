@@ -1,0 +1,18 @@
+imports:
+
+ - { resource: "./FormElements/Form.yaml" }
+
+ - { resource: "./Finishers/VariableProvider.yaml" }
+
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          formEditor:
+            translationFiles:
+              1709276020: 'EXT:finisher_variable_provider/Resources/Private/Language/Database.xlf'
+
+
+
+
